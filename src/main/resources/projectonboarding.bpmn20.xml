@@ -6,7 +6,7 @@
     <userTask id="usertask1" name="Receive new project opportunity" activiti:candidateGroups="management">
       <extensionElements>
         <activiti:formProperty id="jrss" name="requirement" type="string" required="true"></activiti:formProperty>
-        <activiti:formProperty id="projectteam" name="Project Team" type="string" default="H&amp;M(Platform)" required="true"></activiti:formProperty>
+        <activiti:formProperty id="projectteam" name="Project Team" type="string" default="Team-Name" required="true"></activiti:formProperty>
       </extensionElements>
     </userTask>
     <sequenceFlow id="flow1" sourceRef="startEvent" targetRef="usertask1"></sequenceFlow>
